@@ -8,7 +8,22 @@
 {
 	background: #04BDBF;
 	padding: 20px;
+float: left;
+	width: 40%;
+	padding: 20px;
+	margin: 20px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	-webkit-box-shadow: 2px 1px 6px #0083BE;
+	box-shadow: 2px 5px 6px #00BBA2;
+	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
+	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	opacity: 0.83
 }
+
 
 #header h1 { margin: 0; }
 
